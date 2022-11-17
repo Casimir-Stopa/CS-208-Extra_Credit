@@ -130,4 +130,4 @@ canDoHonors(student2.GPA):
 This student has a GPA that is too low to do an honors project. Their GPA must rise by at least -0.44 to do one
 ```
 
-To do something like this using magic methods as asked, I belieive I would need to using magic methods like ``__gt__`` and compare a given student's GPA to the GPA needed to do an honors project. What I do not understand is how to tell the method to look at the GPA part of the student object, and what you would need to give the method in order to give the desired output. Same goes for other magic methods I tried to impement like adding a class to a student's current schedule using ``__add__``. 
+To do something like this using magic methods as asked, I belieive I would need to using magic methods like ``__gt__`` and compare a given student's GPA to the GPA needed to do an honors project. What I do not understand is how to tell the method to look at the GPA part of the student object, and what you would need to give the method in order to give the desired output. Same goes for other magic methods I tried to impement like adding a class to a student's current schedule using ``__setitem__``. 
